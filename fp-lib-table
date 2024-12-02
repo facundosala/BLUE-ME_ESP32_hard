@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "IMSA")(type "KiCad")(uri "${KIPRJMOD}/Librerias/IMSA.pretty")(options "")(descr ""))
+  (lib (name "modules")(type "KiCad")(uri "G:/Mi unidad/TRABAJO/AUTO/BLUE&SDF/kicad-library-c9ad92769604a70c92a31877055230b5cec17278/modules.pretty")(options "")(descr ""))
+)

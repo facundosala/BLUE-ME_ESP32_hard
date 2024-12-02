@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HVC_IMSA")(type "KiCad")(uri "${KIPRJMOD}/HVC_IMSA.kicad_sym")(options "")(descr ""))
+  (lib (name "HVC_fuente")(type "KiCad")(uri "${KIPRJMOD}/Librerias/TEA_1-0505HI/TEA_1-0505HI.kicad_sym")(options "")(descr ""))
+  (lib (name "jdy-66")(type "KiCad")(uri "${KIPRJMOD}/jdy-66.kicad_sym")(options "")(descr ""))
+)

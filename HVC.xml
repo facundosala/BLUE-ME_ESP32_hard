@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\mbaldo\Desktop\IMSA\PCB\Prototipo\HVC\HVC.kicad_sch</source>
+    <date>11/1/2023 14:47:53</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HVC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Fuente/" tstamps="/6f44a349-1ba9-4965-b217-aa1589a07228/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FuenteSW.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Inversor/" tstamps="/d22db607-bea2-4c52-8eb6-eb70b4714d8e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Inversor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Inversor"/>
+      <property name="Sheetfile" value="Inversor.kicad_sch"/>
+      <sheetpath names="/Inversor/" tstamps="/d22db607-bea2-4c52-8eb6-eb70b4714d8e/"/>
+      <tstamps>7f90aefb-fb1b-4d70-b8d2-f2362a688d31</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Inversor"/>
+      <property name="Sheetfile" value="Inversor.kicad_sch"/>
+      <sheetpath names="/Inversor/" tstamps="/d22db607-bea2-4c52-8eb6-eb70b4714d8e/"/>
+      <tstamps>2e4f721d-d8b0-4960-8455-f6903fb81c76</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Inversor"/>
+      <property name="Sheetfile" value="Inversor.kicad_sch"/>
+      <sheetpath names="/Inversor/" tstamps="/d22db607-bea2-4c52-8eb6-eb70b4714d8e/"/>
+      <tstamps>38bce711-2385-413d-a92e-b71c3f144ec4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>IR2110</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e</datasheet>
+      <libsource lib="Driver_FET" part="IR2110" description="High and Low Side Driver, 500V, 2.0/2.0A, PDIP-14"/>
+      <property name="Sheetname" value="Inversor"/>
+      <property name="Sheetfile" value="Inversor.kicad_sch"/>
+      <sheetpath names="/Inversor/" tstamps="/d22db607-bea2-4c52-8eb6-eb70b4714d8e/"/>
+      <tstamps>6644d3fc-2dc3-4b6f-a4e4-e4c6d7749bea</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="IR2110">
+      <description>High and Low Side Driver, 500V, 2.0/2.0A, PDIP-14</description>
+      <docs>https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IR2110</field>
+        <field name="Footprint">Package_DIP:DIP-14_W7.62mm</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LO" type="output"/>
+        <pin num="2" name="COM" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VS" type="passive"/>
+        <pin num="6" name="VB" type="passive"/>
+        <pin num="7" name="HO" type="output"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="HIN" type="input"/>
+        <pin num="11" name="SD" type="input"/>
+        <pin num="12" name="LIN" type="input"/>
+        <pin num="13" name="VSS" type="power_in"/>
+        <pin num="14" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Driver_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="COM" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="4" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="6" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="VCC" pintype="power_in+no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="VS" pintype="passive+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="VB" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="HIN" pintype="input+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="SD" pintype="input+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="LIN" pintype="input+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="15" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,27 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6af9e750-228f-433b-b0fd-7314ff46fb56")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Funcionamiento de ABRIR Y CERRAR EL TECHO\n\n"
+		(exclude_from_sim no)
+		(at 59.69 39.116 0)
+		(size 185.293 104.013)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left top)
+		)
+		(uuid "6c72b304-21b4-47f8-b80d-662224a7601b")
+	)
+)

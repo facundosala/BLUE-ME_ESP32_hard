@@ -1,0 +1,27 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cc429eaf-fcb4-4d7b-b762-2a7926cc44ec")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Funcionamiento de los espejos:\n\nCuando le llega un mensaje \"abrir dos click\" y posteriormente le llega el \"mensaje CONTACTO_LLAVE\", esto habilita el pin de ESP32 \"OPEN_MIRROR\" y lo pone en 1 durante 1 seg y al mismo tiempo pone un 1 en el pin POWER durente 4 seg.\nOBS: Una vez recivido este comando no puede volver a ejecutarce si es que no se recive un mensaje de \"cerrar dos veces\".\n\nAl llegar el mensaje de \"cerrar dos click\" habilita el pin de la ESP32 de \"CLOSE_MIRROR\" poniendo un 1 durante 1 seg y al mismo tiempo pone un 1 en el pin POWER durente 4 seg.\n "
+		(exclude_from_sim no)
+		(at 69.723 44.704 0)
+		(size 159.131 111.633)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left top)
+		)
+		(uuid "25724891-0e44-4682-9e30-3713b0972f0a")
+	)
+)
